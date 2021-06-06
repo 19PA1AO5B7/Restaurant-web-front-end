@@ -1,0 +1,249 @@
+/* 
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #ff6b81;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.img-curve{
+    border-radius: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+.float-container{
+    position: relative;   
+}
+.float-text{
+    position: absolute;
+    bottom: 40px;
+    left: 40%;
+    color: white;
+    font-size: 20px;
+}
+
+/*
+ this will help to flot image onlyb in the navbar but not in the search seaction
+*/
+.clear-fix{
+    clear: both;
+    float: none;
+}
+
+.btn{
+    padding: 1%;
+    font-size: 13px;
+    margin-left: 18px;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+
+}
+
+/*
+ -----------------------------------styling navbar 
+*/
+.menu{
+    line-height: 50px;
+}
+
+.logo{
+    width: 13%;
+    float: left;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    font-size: 17px;
+}
+ 
+/*
+stylling for foos search
+*/
+
+.food-search{
+    background-image: url(../Restaurent/bg.jpg);
+    padding: 7% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+}
+
+/*
+---------------------------stylling for categories----------
+*/
+
+.categories{
+    padding: 4% 0;
+}
+
+.box{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+/*
+-------------------------------stylling for foodmenu
+*/
+.food-menu{
+    background-color: #ececee;
+    padding: 4% 0;
+}
+
+.food-menu-box{
+    width: 43%;
+    float: left;
+    margin: 1%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+
+}
+.food-menu-des{
+    width: 68%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    color: tomato;
+    margin: 1.5% 0;
+    font-weight: bold;
+}
+
+.food-des{
+    font-size: 12.5px;
+    font-weight: bold;
+    color: #747d8c;
+}
+
+/* social stylling */
+.social ul{
+    list-style-type: none;
+}
+
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/*
+    responsive for mobikle
+*/
+
+@media only screen and (max-width:768px) {
+
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    } 
+    .menu ul{
+        text-align: center;
+    } 
+    .food-search{
+        padding: 10% 0;
+    }
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
+    .btn{
+        width: 85%;
+        padding: 2%;
+        border-radius: 20px;
+    }
+    .box{
+        width: 89%;
+        
+        margin: 4% auto;
+    }
+    .food-menu{
+        padding: 20% 0;
+    }
+    
+    .food-menu-box{
+        width: 90%;
+        margin-bottom: 7%;
+        padding: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .food-des{
+        font-size: 18px;
+    }
+    .footer p{
+        font-size: 20px;
+    }
+}
+
+/*
+icons are taken from the icon8.com
+*/
